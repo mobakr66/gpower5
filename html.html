@@ -1,0 +1,155 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="all.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-info bg-light">
+        <div class="container-fluid">
+            <a href="" class="navbar-brand p-3">
+    
+                <img src="img/gpower-logo-header.png" alt="" class="rounded-pill" width="40px">
+                <span class="text-warning p-3 h3">G-power</span>
+                
+            </a>
+            <div class="collapse navbar-collapse" id="mynavbar">
+              <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link text-warning" href="javascript:void(0)">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-warning" href="javascript:void(0)">Merch</a>
+                  </li>
+                  <!--dropdown menu-->
+                  <div class="dropdown">
+                    <button type="button" class="btn btn-light text-warning dropdown-toggle" data-bs-toggle="dropdown">
+                      Cars
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item text-warning" href="#">BMW</a></li>
+                      <li><a class="dropdown-item text-warning" href="#">Mercedes</a></li>
+                      <li><hr class="dropdown-divider"></hr></li> 
+                      <li><a class="dropdown-item text-warning" href="#">Porsche</a></li>
+                      <li><a class="dropdown-item text-warning" href="#">Bently</a></li>
+                      <li><a class="dropdown-item text-warning" href="#">Rolls Royce</a></li>
+                    </ul>
+                  </div>
+                  <li class="nav-item">
+                    <a class="nav-link text-warning" href="javascript:void(0)">About</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="text" placeholder="Search">
+                  <button class="btn btn-warning" type="button">Search </button>
+                  <button type="button" class="btn btn-warning mx-2" data-bs-toggle="modal" data-bs-target="#myModal">
+    Login
+    </button>
+    </div>
+    
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    
+      <!-- Modal Header -->
+      <div class="modal-header bg-warning">
+        <h4 class="modal-title">Login</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+    
+      <!-- Modal body -->
+      <div class="modal-body">
+       <div class="container mt-3">
+    <form action="#">
+    <div class="mb-3 mt-3 text-warning">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+      <p class="text-secondary">we will never share your email with anyone</p>
+    </div>
+    <div class="mb-3 text-warning">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+    </div>
+    <div class="form-check mb-3 form-switch">
+      <label class="form-check-label" for="flexSwitch">
+        <input class="form-check-input bg-warning text-warning" type="checkbox" role="switch" name="remember" id="flexSwitch"> Remember me
+      </label>
+    </div>
+      </div>
+    
+      <!-- Modal footer -->
+      <div class="modal-footer justify-content-between">
+        <button type="submit" class="btn btn-warning  ">Login</button>
+        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+      </div>
+    
+    </div>
+    </div>
+    </div>
+    
+                </form>
+              </div>
+            
+        </div>
+    </nav>
+    <div class="d-flex flex-row pt-5 mx-5" id="card">
+        <div class="card" style="width: 300px;">
+            <img class="card-img-top" src="img/OIP.jpg" height="200px" alt="Card image">
+            <div class="card-body">
+                <h4 id="hh" class="card-title">Bmw m5</h4>
+                <p class="card-text">1,600,000 Egp</p>
+                <a price="1600000" href="#" class="btn btn-warning"><ion-icon name="cart-outline">Bmw m5</ion-icon></a>
+            </div>
+
+        </div>
+        <div class="card mx-5" style="width: 300px;">
+            <img class="card-img-top" height="200px" src="img/2016_bmw_m6_competition_edition_1541474701cffc12975M6_8.webp" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Bmw m6</h4>
+                <p class="card-text">1,400,000 Egp</p>
+                <a price="1400000" href="#" class="btn btn-warning"><ion-icon name="cart-outline">Bmw m6</ion-icon></a>
+            </div>
+
+        </div>
+        <div class="card mx-5" style="width: 300px;">
+            <img class="card-img-top" src="img/m8.jfif" height="200px" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Bmw m8</h4>
+                <p class="card-text">2,000,000 Egp</p>
+                <a price="2000000" href="#" class="btn btn-warning"><ion-icon name="cart-outline">Bmw m8</ion-icon></a>
+            </div>
+        </div>
+        <div class="card mx-3" style="width:300px ;">
+            <img class="card-img-top" src="img/R.jpg" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Bmw m4</h4>
+                <p class="card-text">1,000,000 Egp</p>
+                <a price="1000000" href="#" class="btn btn-warning"><ion-icon name="cart-outline">Bmw m4</ion-icon></a>
+            </div>
+        </div>    
+    </div>
+
+
+
+
+    <div id="div1" class="p-3 container bg-light text-dark my-3" style="visibility: hidden;"></div>
+    <button type="button" class="btn btn-outline-warning p-2 my-3 mx-5" id="btnprice" style="visibility: hidden;">Show total</button>
+    <div id="div2" class="p-3 container bg-light text-dark my-3" style="visibility: hidden;"></div>
+
+
+
+
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
